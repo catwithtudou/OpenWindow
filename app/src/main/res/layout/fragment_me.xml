@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical">
+
+
+
+    <cn.zhengyua.openwindow.view.myview.MyImageView
+        android:id="@+id/img_me_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/me_avator"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="BlackCat"
+        android:textColor="@color/title"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_thinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="从来如此，便是对的吗？"
+        android:textColor="@color/title"
+        android:textSize="20dp"/>
+
+    <View
+        android:id="@+id/tv_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/barColor"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/tv_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="我的信息"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/title"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_user_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="我的评论"
+        android:textColor="@color/title"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_user_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="我的视频"
+        android:textColor="@color/title"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_user_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="我的文章"
+        android:textColor="@color/title"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_user_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="设置"
+        android:textColor="@color/title"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_user_over"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="退出"
+        android:textColor="@color/title"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
